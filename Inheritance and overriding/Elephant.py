@@ -11,9 +11,12 @@ class Elephant(Animal):
         self.tail = 1
         self.skin_pattern = 'hard and thick'
         self.origin_type = 'African'
+        
+        #calling Animal super class constructor method
         super().__init__(self.eyes, self.legs, self.hands, self.tail, self.skin_pattern, self.origin_type)
 
     def get_elephant_info(self):
+        # Calling Animal parent class get_animal_info() method inside child class method
         return super().get_animal_info()
 
     # Overriden method of Animal class
