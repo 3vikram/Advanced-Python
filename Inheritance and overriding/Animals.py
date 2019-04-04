@@ -1,7 +1,6 @@
 class Animal:
 
     # Animal class constructor
-
     def __init__(self, eyes, legs, hands, tail, skin_pattern, origin_type):
         self.eyes = eyes
         self.legs = legs
